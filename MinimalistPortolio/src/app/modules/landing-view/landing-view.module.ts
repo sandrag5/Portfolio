@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingViewComponent } from './landing-view/landing-view.component';
-
-
+import { LandingViewComponent } from './page/landing-view.component';
 
 @NgModule({
   declarations: [LandingViewComponent],
