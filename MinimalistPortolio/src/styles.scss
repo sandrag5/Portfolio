@@ -4,7 +4,8 @@ $secondary-color: #D6D6D6;
 
 html, body {
   font: 100% $font-stack;
-  background-image: url("./assets/images/bg-large.svg");
+  background-image: url("./assets/images/bg.jpg");
+  background-color: aqua;
   background-size: cover;
   background-position: fixed;
   overflow: hidden;
