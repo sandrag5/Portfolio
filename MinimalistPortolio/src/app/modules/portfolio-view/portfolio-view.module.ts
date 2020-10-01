@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PortfolioViewComponent } from './portfolio-view/portfolio-view.component';
-
-
+import { PortfolioViewComponent } from './page/portfolio-view.component';
 
 @NgModule({
   declarations: [PortfolioViewComponent],
