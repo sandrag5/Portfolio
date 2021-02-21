@@ -4,22 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { AboutMeModule } from './modules/about-me/about-me.module';
-import { ContactMeModule } from './modules/contact-me/contact-me.module';
-import { LandingViewModule } from './modules/landing-view/landing-view.module';
-import { PortfolioViewModule } from './modules/portfolio-view/portfolio-view.module';
+import { AboutMeComponent } from './modules/about-me/about-me.component';
+import { ContactMeComponent } from './modules/contact-me/contact-me.component';
+import { LandingViewComponent } from './modules/landing-view/landing-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingViewComponent,
+    AboutMeComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    AboutMeModule,
-    ContactMeModule,
-    LandingViewModule,
-    PortfolioViewModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
