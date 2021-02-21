@@ -81,6 +81,35 @@ html, body {
   }
 }
 
+#data {
+  text-transform: none !important;
+  text-align: justify !important;
+  padding: 6% !important;
+}
+
+#more-data {
+  text-transform: none !important;
+  text-align: right !important;
+  padding-right: 12%;
+}
+
+#more-data-open {
+  text-transform: none !important;
+  text-align: right !important;
+}
+
+.mr {
+  background-color: black;
+  border: none;
+  border-radius: 50px 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 #info {
   margin: auto;
   width: 30%;
