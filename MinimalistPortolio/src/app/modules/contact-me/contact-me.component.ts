@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactMeComponent implements OnInit {
 
+  user:string = 'sandragarcsh';
+  domain:string = '@gmail.com';
+
+  mailText:string = "";
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+   mailMe() {
+  		this.mailText = "mailto:" + this.user + this.domain;
+    	window.location.href = this.mailText;
+  	}
 
 }

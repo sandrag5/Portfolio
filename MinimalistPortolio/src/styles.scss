@@ -110,6 +110,88 @@ html, body {
   font-size: 16px;
 }
 
+.ext {
+  background-color: black;
+  border: none;
+  border-radius: 50px 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.ext span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ext span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ext:hover span {
+  padding-right: 25px;
+}
+
+.ext:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.mail {
+  background-color: black;
+  border: none;
+  border-radius: 50px 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.mail span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mail span:after {
+  content: '\00bb  via email client!';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.mail:hover span {
+  padding-right: 140px;
+}
+
+.mail:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.center {
+  display: inline-block;
+}
+
 #info {
   margin: auto;
   width: 30%;
