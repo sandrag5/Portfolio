@@ -7,20 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingViewComponent implements OnInit {
 
-	showmore:boolean=false;
+	  showmore:boolean=false;
 
   	constructor() { }
 
   	ngOnInit(): void { 
-		this.showmore=false;
+		  //this.showmore=false;
   	}
 
-  	showMoreInformation() {
+  	/*showMoreInformation() {
   		if(this.showmore == false) {
 			this.showmore=true;
   		} else  {
   			this.showmore=false;
   		}
-  	}
+  	}*/
 
 }
