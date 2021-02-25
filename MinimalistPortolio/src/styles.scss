@@ -87,6 +87,14 @@ html, body {
   padding: 6% !important;
 }
 
+#contact {
+  text-transform: none !important;
+  text-align: justify !important;
+  padding-right: 8% !important;
+  padding-left: 8% !important;
+  padding-bottom: 6% !important;
+}
+
 #more-data {
   text-transform: none !important;
   text-align: right !important;
@@ -145,45 +153,6 @@ html, body {
 }
 
 .ext:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.mail {
-  background-color: black;
-  border: none;
-  border-radius: 50px 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.mail span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.mail span:after {
-  content: '\00bb  via email client!';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.mail:hover span {
-  padding-right: 140px;
-}
-
-.mail:hover span:after {
   opacity: 1;
   right: 0;
 }
